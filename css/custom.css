@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+
+/* common css  */
+*{
+     padding: 0;
+     margin: 0;
+     outline: 0;
+     list-style: none;
+     box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+}
+img{
+     width: 100%;
+}
+
+
+
+/* top header css */
+.top-header{
+     background-color: #49657d;
+     height: 5vh;
+     padding-top: 3px;
+}
+
+.link{
+     margin-left: 20px;
+     color: #fff;
+     text-decoration: none;
+}
+.link:hover{
+     color: #ffffff;
+}
+.icon{
+     margin-right: 5px;
+     
+}
+.social-icon{
+     display: flex;
+     
+}
+.social-icon ul{
+     list-style: none;
+}
+.social-icon ul li{
+     display: inline;
+     margin-left: 10px;
+}
+
+.social-icon ul li:last-child{
+     margin-right: 20px;
+     border-right: 1px solid #fff;
+     padding-right: 20px;
+}
+.social-icon ul li a{
+     color: #fff;
+}
+.support{
+     margin-right: 20px;
+     color: #fff;
+}
+
+.contact-with-us{
+     color: #abd5fa;
+     text-decoration: none;
+     text-transform: uppercase;
+     
+}
+.contact-with-us:hover{
+     color: #ffffff;
+}
+
+
+
+
+
+
+/* navbar css */
+
+.space{
+     margin-left: 560px;
+}
+
+
+/* banner css */
+
+.banner-images{height: 90vh;}
+.our-company-button{
+     padding: 10px 40px;
+     border: 0; 
+     background-color: #1f87e4;
+     color: #ffffff;
+     text-transform: uppercase;  
+}
+
+
+/* about area  */
+.about-area{
+     display: flex;
+}
+.about-area img{
+     padding: 80px;
+     padding-left: 0;
+}
+
+.about-details{
+     padding: 80px;
+}
